@@ -1,0 +1,18 @@
+pragma solidity ^0.6.0;
+
+
+
+contract payabl{
+    
+    
+    function deposit() public payable{
+       
+        
+    }
+    
+    function withdraw() public {
+        msg.sender.transfer(address(this).balance);
+    }
+    
+    
+}
